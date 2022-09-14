@@ -1,0 +1,62 @@
+/ ACTIVITY #2 COM-PROG 3 CS-301P
+
+using System;
+namespace Resume
+{
+    class Biodata
+    {
+        static void Main (string[] args)
+        {
+            Console.Write("Name: "); 
+            string name = Console.ReadLine();
+            Console.Write("Present Address: "); 
+            string present = Console.ReadLine();
+            Console.Write("Permanent Address: "); 
+            string permanent = Console.ReadLine();
+            Console.Write("Date of Birth: "); 
+            string date = Console.ReadLine();
+            Console.Write("Civil Status: "); 
+            string civil = Console.ReadLine();
+            Console.Write("Citizenship: "); 
+            string citizen = Console.ReadLine();
+            Console.Write("Place of Birth: "); 
+            string place = Console.ReadLine();
+            Console.Write("Name of Father: "); 
+            string father = Console.ReadLine();
+            Console.Write("Name of Mother: "); 
+            string mother = Console.ReadLine();
+            Console.Write("Address: "); 
+            string address = Console.ReadLine();
+            Console.Write("Language: "); 
+            string language = Console.ReadLine();
+            Console.Write("Case of Emergency: "); 
+            string emergency = Console.ReadLine();
+            Console.Write("Religion: "); 
+            string religion = Console.ReadLine();
+            Console.Write("Age: "); 
+            int Age;
+            Age = Convert.ToInt32(Console.ReadLine()); 
+            Console.Write("Weight: "); 
+            string weight = Console.ReadLine();
+            Console.Write("Height: "); 
+            string height = Console.ReadLine();
+            
+            
+            
+            Console.WriteLine("Name: " + name );
+            Console.WriteLine("Present Address: " + present );
+            Console.WriteLine("Permanent Address: " + permanent);
+            Console.WriteLine("Date of Birth:               " + date + "Religion: " + religion );
+            Console.WriteLine("Civil Status:                " + civil +   " Age:    " + Age );
+            Console.WriteLine("Citizenship:                 " + citizen + " Weight: " + weight );
+            Console.WriteLine("Place of Bith:               " + place +   " Height: " + height );
+            Console.WriteLine("Name of Father: " + father );
+            Console.WriteLine("Name of Mother: " + mother );
+            Console.WriteLine("Address: " + address );
+            Console.WriteLine("Language: " + language );
+            Console.WriteLine("Case of Emergency: " + emergency );
+
+            
+        }
+    }
+}
